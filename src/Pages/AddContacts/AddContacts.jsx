@@ -28,6 +28,17 @@ const AddContacts = () => {
     const myAxios = useAxios();
     const [refetch] = useContacts();
     const onSubmit = async (data) => {
+        toast.success('Please wait just a second.....', {
+            style: {
+              border: '1px solid #713200',
+              padding: '16px',
+              color: '#713200',
+            },
+            iconTheme: {
+              primary: '#713200',
+              secondary: '#FFFAEE',
+            },
+          });
         // console.log(data)
         const date = new Date();
         const imageFile = { image: data.photo[0] }
