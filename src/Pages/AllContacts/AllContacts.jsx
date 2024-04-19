@@ -11,6 +11,7 @@ import { useForm } from "react-hook-form";
 import { styled } from '@mui/material/styles';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { useRef } from "react";
+import Loading from "../Shared/Loading/Loading";
 
 const image_hosting_api = `https://api.imgbb.com/1/upload?key=70d78c25064c03ace2c980e0c9da5a04`;
 
@@ -94,7 +95,9 @@ const AllContacts = () => {
 
 
     return (
-        <div className="px-4 md:px-8 lg:px-16 xl:px-[200px] pb-16 pt-16 bg-gray-100 min-h-screen">
+        <>
+        {
+            contacts.length ? <div className="px-4 md:px-8 lg:px-16 xl:px-[200px] pb-16 pt-16 bg-gray-100 min-h-screen">
             <Toaster
                 position="top-center"
                 reverseOrder={false}
@@ -225,6 +228,10 @@ const AllContacts = () => {
                 </table>
             </div>
         </div>
+        :
+        <Loading></Loading>
+        }
+        </>
     );
 };
 
