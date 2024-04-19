@@ -54,6 +54,17 @@ const AllContacts = () => {
             formData.append('phone', data.phone);
             formData.append('address', data.address);
     
+            toast.success('Please wait just a second.....', {
+                style: {
+                  border: '1px solid #713200',
+                  padding: '16px',
+                  color: '#713200',
+                },
+                iconTheme: {
+                  primary: '#713200',
+                  secondary: '#FFFAEE',
+                },
+              });
             // Upload image file
             const resImage = await myAxios.post(image_hosting_api, formData, {
                 headers: {
