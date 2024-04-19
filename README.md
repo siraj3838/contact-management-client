@@ -1,8 +1,19 @@
-# React + Vite
+● My Website Name: Contact Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+● My Website Link: https://contact-management-4c7e5.web.app
 
-Currently, two official plugins are available:
+1/ Experience the future of contact management with our cutting-edge frontend technology stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2/ Harness the power of ReactJS for dynamic and interactive user interfaces.
+
+3/ Tailwind CSS provides a customizable and responsive design system for stunning visuals.
+
+4/ Framer Motion adds fluid animations and transitions for a delightful user experience.
+
+5/ React-Hot-Toast delivers real-time notifications to keep users informed and engaged.
+
+6/ TanStack Query ensures seamless data fetching and management, enhancing application performance.
+
+7/ Material UI offers a library of pre-designed components for rapid development and consistent styling.
+
+8/ Type-Animation adds a touch of creativity with animated text effects, making interactions more engaging.

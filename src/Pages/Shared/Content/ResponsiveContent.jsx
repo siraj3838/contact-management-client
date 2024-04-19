@@ -1,9 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
-// import img from '../../assets/contentImg.png'
-// import img2 from '../../assets/contentImg2.png'
-// import img3 from '../../assets/contentImg3.png'
-// import up from '../../assets/up.png'
-// import down from '../../assets/down.png'
+import img from '../../../assets/img.png'
+import img2 from '../../../assets/img2.png'
+import img3 from '../../../assets/img3.png'
 import { motion } from "framer-motion";
 import Headline from "../Headline/Headline";
 
@@ -19,7 +17,7 @@ const ResponsiveContent = () => {
                 </div>
                 <div className="flex flex-col md:flex-row items-center gap-10 py-6 md:py-0 lg:py-0 xl:py-16">
                     <div className="flex-1">
-                        {/* <img src={img2} alt="" /> */}
+                        <img src={img} alt="" />
                     </div>
                     <div className="flex-1 overflow-hidden">
                         <motion.div
@@ -79,13 +77,13 @@ const ResponsiveContent = () => {
 
                     </div>
                     <div className="flex-1">
-                        {/* <img src={img} alt="" /> */}
+                        <img src={img2} alt="" />
                     </div>
                 </div>
                 {/* <div className="divider"></div>  */}
                 <div className="flex flex-col md:flex-row items-center gap-10 py-6 md:py-8 lg:py-8 xl:pt-16">
                     <div className="flex-1">
-                        {/* <img src={img3} alt="" /> */}
+                        <img src={img3} alt="" />
                     </div>
                     <div className="flex-1 overflow-hidden">
                         <motion.div
